@@ -66,7 +66,7 @@ private:
   State state_{State::WAITING_FOR_GOAL};
 
   static constexpr double GOAL_THRESHOLD = 0.5;
-  static constexpr int OCCUPIED_THRESHOLD = 50;
+  static constexpr int OCCUPIED_THRESHOLD = 20;
 };
 
 #endif

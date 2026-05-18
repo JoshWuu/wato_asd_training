@@ -38,7 +38,7 @@ private:
   nav_msgs::msg::Odometry::SharedPtr current_odom_;
 
   static constexpr double LOOKAHEAD_DISTANCE = 1.0;
-  static constexpr double LINEAR_SPEED = 0.5;
+  static constexpr double LINEAR_SPEED = 1.0;
   static constexpr double GOAL_TOLERANCE = 0.3;
 };
 

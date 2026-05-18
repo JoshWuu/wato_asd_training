@@ -21,7 +21,7 @@ private:
   static constexpr double RESOLUTION = 0.1;
   static constexpr int MAP_WIDTH = 200;
   static constexpr int MAP_HEIGHT = 200;
-  static constexpr double INFLATION_RADIUS = 1.0;
+  static constexpr double INFLATION_RADIUS = 2.0;
 };
 
 #endif
